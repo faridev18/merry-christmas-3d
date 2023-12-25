@@ -64,15 +64,14 @@ export default function Experience() {
             </EffectComposer>
 
             <Float rotationIntensity={1} >
-                <Center scale={0.6} position={[0, 2, 0]} top>
+                <Center scale={0.4} position={[0, 1.5, 0]} top>
                     <Text3D
                         font="./helvetiker_regular.typeface.json"
                         fontSize={0.2}
                         rotation-y={- 1.25}
                         maxWidth={1}
                         textAlign='center'>
-                        Joyeux
-                        Noel
+                        Merry Christmas
                         <MeshWobbleMaterial factor={0.1} speed={1} />
                     </Text3D>
                 </Center>

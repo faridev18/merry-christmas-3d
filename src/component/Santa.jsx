@@ -42,6 +42,7 @@ export function Santa(props) {
             geometry={nodes.base_animacao005_Material026_0.geometry}
             material={materials["Material.026"]}
           />
+          
           <mesh
             castShadow
             receiveShadow
@@ -94,7 +95,9 @@ export function Santa(props) {
             receiveShadow
             geometry={nodes.lamps_Material002_0.geometry}
             material={materials["Material.008"]}
-          />
+            >
+            <meshStandardMaterial color={ "yellow" } emissive="yellow" emissiveIntensity={ 6 } toneMapped={ false } />
+         </mesh>
           <mesh
             castShadow
             receiveShadow
